@@ -8,6 +8,10 @@ This project will convert JPA events (create, update, remove) to Spring.
 A typical use case would be if you wanted to received a notification whenever an entity has been modified
 and do some processing afterwards like triggering a script.
 
+## Execution
+
+Simply run mvn test and the spring events should be visible in log.
+
 ## Authors
 
  * **Edward P. Legaspi** - *Java Architect* - [czetsuya](https://github.com/czetsuya)
