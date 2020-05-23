@@ -1,5 +1,5 @@
 /**
- * Copyright 2020 1 present, Edward P. Legaspi | czetsuya@gmail.com.
+ * Copyright 2020 - present, Edward P. Legaspi | czetsuya@gmail.com.
  * All rights reserved.
  * 
  * This source code is license under the license found in the 
