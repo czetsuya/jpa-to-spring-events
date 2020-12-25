@@ -17,7 +17,17 @@ import org.springframework.stereotype.Component;
 public class SpringEventListener {
 
     @EventListener
-    public void onJpaEntityCreated(JpaEvent e) {
-        System.out.println("jpa event received " + e);
+    public void onJpaEntityCreated(CreatedJpaEvent e) {
+        System.out.println("create jpa event received " + e);
+    }
+
+    @EventListener
+    public void onJpaEntityUpdated(UpdatedJpaEvent e) {
+        System.out.println("update jpa event received " + e);
+    }
+
+    @EventListener
+    public void onJpaEntityRemoved(RemovedJpaEvent e) {
+        System.out.println("remove jpa event received " + e);
     }
 }
