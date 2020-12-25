@@ -11,9 +11,9 @@ and do some processing afterwards like triggering a script.
 
 ## Execution
 
-Simply run mvn test and the spring events should be visible in log.
+Run mvn test and the spring events should be visible in the log.
 
-See our example for CDI https://github.com/czetsuya/jpa-to-cdi-events.
+For CDI events see https://github.com/czetsuya/jpa-to-cdi-events.
 
 ## Authors
 
