@@ -5,7 +5,7 @@
  * This source code is license under the license found in the 
  * License.md file in the root directory of this source tree.
  */
-package com.czetsuya.event;
+package com.czetsuyatech.event;
 
 import javax.persistence.PrePersist;
 import javax.persistence.PreRemove;

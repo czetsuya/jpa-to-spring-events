@@ -5,7 +5,7 @@
  * This source code is license under the license found in the 
  * License.md file in the root directory of this source tree.
  */
-package com.czetsuya;
+package com.czetsuyatech;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

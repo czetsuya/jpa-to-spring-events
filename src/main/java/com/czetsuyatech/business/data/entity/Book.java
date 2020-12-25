@@ -5,7 +5,7 @@
  * This source code is license under the license found in the 
  * License.md file in the root directory of this source tree.
  */
-package com.czetsuya.business.data.entity;
+package com.czetsuyatech.business.data.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
@@ -13,7 +13,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import com.czetsuya.event.JpaToSpringEvent;
+import com.czetsuyatech.event.JpaToSpringEvent;
 
 import lombok.Data;
 

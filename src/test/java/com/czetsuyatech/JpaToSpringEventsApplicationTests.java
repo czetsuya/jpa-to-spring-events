@@ -1,11 +1,11 @@
-package com.czetsuya;
+package com.czetsuyatech;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.czetsuya.business.data.entity.Book;
-import com.czetsuya.data.repository.BookRepository;
+import com.czetsuyatech.business.data.entity.Book;
+import com.czetsuyatech.data.repository.BookRepository;
 
 @SpringBootTest
 class JpaToSpringEventsApplicationTests {
